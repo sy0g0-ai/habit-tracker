@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>習慣トラッカー</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>習慣トラッカー</h1>
+      <p id="today-date" class="date"></p>
+    </header>
+
+    <section class="habits-section">
+      <h2>今日の習慣</h2>
+      <div class="habits-grid" id="habits-grid"></div>
+    </section>
+
+    <section class="history-section">
+      <h2>履歴（直近7日間）</h2>
+      <div class="history-table-wrapper">
+        <table class="history-table" id="history-table">
+          <thead>
+            <tr id="history-header"></tr>
+          </thead>
+          <tbody id="history-body"></tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
